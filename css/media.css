@@ -1,0 +1,135 @@
+@media (max-width: 320px) {
+
+  body {
+    max-width: 320px;
+  }
+
+  .container {
+    width: 320px;
+  }
+
+  .main__menu {
+    display: flex;
+  }
+
+  .main__menu__top {
+    max-width: 320px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    padding: 0;
+    padding-right: 80px;
+    margin: 0;
+  }
+
+  .lets__enjoy__pic {
+    display: none;
+  }
+
+  .lets__enjoy {
+    height: 660px;
+  }
+
+  .green__text {
+    margin-top: 40px;
+  }
+
+  .start__now {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hotel__bar {
+    display: none;
+  }
+
+  .some__shit {
+    width: 320px;
+
+    flex-direction: column;
+
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 0;
+  }
+
+  .find__travel__box {
+    width: 300px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .travel__is__my__life {
+    padding: 0;
+  }
+
+  .location__btn {
+    padding-top: 40px;
+  }
+
+  .asian {
+    display: flex;
+
+    width: 320px;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .photo__box {
+    width: 320px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .japan {
+    display: none;
+  }
+
+  .italy {
+    display: none;
+  }
+
+  .inside__box {
+    width: 300px;
+  }
+
+  .location__btn {
+    display: none;
+  }
+
+  .facebook {
+    display: none;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2000px) {
+  .container {
+    width: 2000px;
+  }
+
+  .main__menu {
+    justify-content: space-around;
+  }
+
+  .lets__enjoy {
+    justify-content: center;
+  }
+
+  .asian {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .location__btn {
+    padding-right: 416px;
+  }
+}
